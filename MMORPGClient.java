@@ -4,9 +4,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class Clientserver {
+public class MMORPGClient {
     private static final String SERVER_ADDRESS = "localhost";
-    private static final int SERVER_PORT = 8080;
+    private static final int SERVER_PORT = 12345;
 
     public static void main(String[] args) {
         try (
